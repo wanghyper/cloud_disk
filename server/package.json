@@ -1,0 +1,26 @@
+{
+  "name": "cloud-disk-server",
+  "version": "1.0.0",
+  "description": "cloud disk server side ",
+  "main": "index.js",
+  "scripts": {
+    "init": "node init.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cloud",
+    "disk"
+  ],
+  "author": "hyper",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mime": "^2.4.0",
+    "sqlite3": "^4.0.6"
+  }
+}
