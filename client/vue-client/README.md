@@ -1,4 +1,6 @@
-# vue-client
+# 网盘客户端
+当前支持PC端和移动端,VueJS实现,可进行文件的上传、下载和删除，文件夹创建与删除  
+服务请求设置在src/services.js,代理设置在vue.config.js
 
 ## Project setup
 ```
@@ -14,16 +16,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
